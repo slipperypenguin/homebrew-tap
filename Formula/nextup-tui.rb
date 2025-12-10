@@ -5,6 +5,11 @@ class NextupTui < Formula
   sha256 "02a3c6fffe82d9db5c7e46d6d607e494225268b3cd479277c9339d38f05d38b9"
   license "MIT"
 
+  livecheck do
+    url :stable
+    regex(/^v?(\d+(?:\.\d+)+)$/i)
+  end
+  
   depends_on "rust" => :build
 
   def install
