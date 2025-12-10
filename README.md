@@ -2,7 +2,7 @@ This [homebrew tap](https://docs.brew.sh/Taps) contains formula for my published
 
 ## Usage
 ```
-brew tap slipperypenguin/homebrew-tap
+brew tap (slipperypenguin/homebrew)-tap
 brew install FORMULA_NAME
 ```
 
