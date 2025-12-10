@@ -1,10 +1,10 @@
-# Slipperypenguin Tap
+This [homebrew tap](https://docs.brew.sh/Taps) contains formula for the command-line utilities published by
 
-## How do I install these formulae?
-
-`brew install slipperypenguin/tap/<formula>`
-
-Or `brew tap slipperypenguin/tap` and then `brew install <formula>`.
+## Usage
+```
+brew tap slipperypenguin/homebrew-tap
+brew install FORMULA_NAME
+```
 
 Or, in a `brew bundle` `Brewfile`:
 
@@ -13,6 +13,8 @@ tap "slipperypenguin/tap"
 brew "<formula>"
 ```
 
-## Documentation
+## Formula
+- nextup-tui
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+## Misc.
+[Reference](https://justin.searls.co/posts/how-to-distribute-your-own-scripts-via-homebrew/)
