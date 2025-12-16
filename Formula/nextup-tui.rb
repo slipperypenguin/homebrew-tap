@@ -1,8 +1,8 @@
 class NextupTui < Formula
   desc "Terminal application that randomizes a list of names"
   homepage "https://github.com/slipperypenguin/nextup"
-  url "https://github.com/slipperypenguin/nextup/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "6d6d090f5af3daffe2a959f4eb3de85a0f265c23941ef6fbd5f260b6ed74e758"
+  url "https://github.com/slipperypenguin/nextup/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "d0d199b905f8753fe1e11a3e03cb8fc75a87aeeb71423255763c4465f06726cb"
   license "MIT"
 
   livecheck do
